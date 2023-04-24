@@ -7,7 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0178.Construction", "R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0178", "R5T.T0178\R5T.T0178.csproj", "{954EEB48-08AD-41AB-BC3B-E02FDC9F6193}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{324F44E6-9CE6-4C68-8A75-8741842D9B26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0143", "..\..\R5T.T0143\source\R5T.T0143\R5T.T0143.csproj", "{444CD877-49AA-4331-A8B4-AB7D0DA28153}"
+EndProject
 Global
+	GlobalSection(NestedProjects) = preSolution
+		{444CD877-49AA-4331-A8B4-AB7D0DA28153} = {324F44E6-9CE6-4C68-8A75-8741842D9B26}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -21,6 +28,10 @@ Global
 		{954EEB48-08AD-41AB-BC3B-E02FDC9F6193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{954EEB48-08AD-41AB-BC3B-E02FDC9F6193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{954EEB48-08AD-41AB-BC3B-E02FDC9F6193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444CD877-49AA-4331-A8B4-AB7D0DA28153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444CD877-49AA-4331-A8B4-AB7D0DA28153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444CD877-49AA-4331-A8B4-AB7D0DA28153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444CD877-49AA-4331-A8B4-AB7D0DA28153}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
